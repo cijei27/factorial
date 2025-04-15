@@ -15,7 +15,7 @@
 - Serverless Framework para el despliegue en AWS Lambda
 - Jest (framework de testing) y Supertest para pruebas de integración de la API
 - Winston para logging
-- Swagger para documentación La documentación de la API se genera en el endpoint /api-docs. Asegúrate de que los comentarios Swagger estén presentes en los archivos compilados en la carpeta dist y que la opción apis en swaggerOptions apunte a la ruta correcta.
+- Swagger para documentación La documentación de la API se genera en el endpoint /api-docs.
 - Class-validator para la validación en los commands de los use cases
 
   
