@@ -30,13 +30,13 @@ export class Customer {
     this.name = newName;
   }
   updateEmail(newEmail: Email): void {
-    this.email = newEmail; // Usamos el ValueObject para manejar la validación
+    this.email = newEmail;
   }
 
   updateCredit(newCredit: Credit): void {
-    this.credit = newCredit; // Usamos el ValueObject para manejar la validación
+    this.credit = newCredit;
   }
   addCredit(amount: number): void {
-    this.credit = this.credit.add(amount); // Usando el ValueObject Credit
+    this.credit = this.credit.add(amount); 
   }
 }
