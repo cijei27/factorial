@@ -18,6 +18,7 @@ Jest: Propósito: Framework de pruebas para JavaScript. Se usa junto con React T
 
 Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento web más importantes, como el tiempo de carga y la interactividad de la página, mejorando la experiencia del usuario.
 
+
   
 ### Capturas de pantalla de la API
 
@@ -61,6 +62,12 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
    ```sh
    npm install
    ```
+2.1 Crear un archivo .env en el raiz con esta clave
+
+REACT_APP_API_URL=http://localhost:3000
+
+Luego al ejecutarlo, os dira que en ese puerto esta el backend, que si lo quieres ejecutar en otro puerto, le dais a que si, y listo
+<img width="923" alt="Captura de pantalla 15 04 2025 a 17 31 31 p  m" src="https://github.com/user-attachments/assets/d99c24c8-ec21-4f60-b914-a53cb78f2377" />
 
 3. Ejecutar el frontend en Local
 
