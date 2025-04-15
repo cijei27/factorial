@@ -27,6 +27,7 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
 <img width="1106" alt="Captura de pantalla 15 04 2025 a 17 11 32 p  m" src="https://github.com/user-attachments/assets/566b61c2-cc2e-45c1-a981-190c6b36fce0" />
 <img width="1105" alt="Captura de pantalla 15 04 2025 a 17 11 37 p  m" src="https://github.com/user-attachments/assets/8c89a7e0-6b0c-48fc-b2d5-469de466b88a" />
 <img width="810" alt="Captura de pantalla 15 04 2025 a 17 11 45 p  m" src="https://github.com/user-attachments/assets/70006f12-c5d6-429a-92a3-36e0ca9bddd0" />
+<img width="1060" alt="Captura de pantalla 15 04 2025 a 17 20 12 p  m" src="https://github.com/user-attachments/assets/c017ecee-4d87-40d5-a1b4-1368d4e0bed3" />
 <img width="1064" alt="Captura de pantalla 15 04 2025 a 17 11 50 p  m" src="https://github.com/user-attachments/assets/d39e84cb-fd7c-4987-b35a-7020b22ecc6a" />
 <img width="1063" alt="Captura de pantalla 15 04 2025 a 17 11 55 p  m" src="https://github.com/user-attachments/assets/765013d7-7c82-46be-9103-f64e24013414" />
 <img width="974" alt="Captura de pantalla 15 04 2025 a 17 12 03 p  m" src="https://github.com/user-attachments/assets/c68de521-2784-483a-808d-bd979033dad0" />
