@@ -67,7 +67,8 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
 REACT_APP_API_URL=http://localhost:3000
 
 Luego al ejecutarlo, os dira que en ese puerto esta el backend, que si lo quieres ejecutar en otro puerto, le dais a que si, y listo
-<img width="923" alt="Captura de pantalla 15 04 2025 a 17 31 31 p  m" src="https://github.com/user-attachments/assets/d99c24c8-ec21-4f60-b914-a53cb78f2377" />
+<img width="787" alt="Captura de pantalla 15 04 2025 a 17 33 54 p  m" src="https://github.com/user-attachments/assets/73cef15f-f48c-4615-bd10-47ea6734605c" />
+
 
 3. Ejecutar el frontend en Local
 
