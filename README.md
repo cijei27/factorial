@@ -151,7 +151,7 @@ Para orientar la arquitectura a producto (como lo haría Factorial), se deben co
 * Iteración y entrega continua: La arquitectura permite despliegues frecuentes y actualizaciones rápidas mediante CI/CD, lo que facilita la incorporación de mejoras y nuevas funcionalidades basadas en feedback real.
 * Escalabilidad y Flexibilidad: El uso de AWS Lambda y API Gateway permite escalar la API automáticamente. La separación en contextos acotados y el uso de principios como DIP garantizan que cada módulo se pueda modificar o expandir sin afectar al resto del sistema.
 * Monitoreo y Feedback: La integración con herramientas de monitoreo y un dashboard robusto permite medir la calidad del servicio, identificar problemas en tiempo real y actuar rápidamente para mejorar el producto.
-* Seguridad y Confiabilidad: Se implementan mecanismos de validación y control en el dominio (con Value Objects) y se aplican buenas prácticas de seguridad en la gestión de datos y credenciales, asegurando que el producto es confiable y seguro para los usuarios.
+* Seguridad y Confiabilidad: Se implementan mecanismos de validación y control en el dominio (con Value Objects) y se aplican buenas prácticas de seguridad en la gestión de datos y credenciales, asegurando que el producto es confiable y seguro para los usuarios. Este punto se ha hecho a través de implementar class-validtor y VOs(Value Objects)
 
 Conclusiones que he tenido en cuenta
 Este plan de arquitectura orientado a producto para la Motorbike API:
