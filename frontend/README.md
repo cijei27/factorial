@@ -42,7 +42,7 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
 ### Prerequisitos
 
 
-- NPM
+- NPM. Instala los paquetes de NPM
 
   ```sh
   npm install npm@latest -g
@@ -57,7 +57,7 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
    git clone 
    ```
 
-2. Instala los paquetes de NPM
+2. Ejecuta el siguiente comando para instalar las dependencias especificadas en el archivo package.json. Esto descargará e instalará todas las dependencias necesarias (como React, Axios, TypeScript, etc.)
 
    ```sh
    npm install
@@ -70,9 +70,12 @@ Luego al ejecutarlo, os dira que en ese puerto esta el backend, que si lo quiere
 <img width="787" alt="Captura de pantalla 15 04 2025 a 17 33 54 p  m" src="https://github.com/user-attachments/assets/73cef15f-f48c-4615-bd10-47ea6734605c" />
 
 
-3. Ejecutar el frontend en Local
+3. Ejecutar el frontend en Local 
 
-### `npm start`
+     ```sh
+   npm start
+   ```
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
@@ -80,7 +83,7 @@ Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 5. ¡Abre tu navegador y disfruta!
 http://localhost:3001
 
-¡Importante tener tu proyecto corriendo!
+¡Importante tener tu proyecto backend corriendo. Asegúrate de que el backend esté corriendo en el servidor y de que la URL de la API es la correcta. Revisa el readme del backend para más información!
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
