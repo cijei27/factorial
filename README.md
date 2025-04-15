@@ -136,7 +136,7 @@ Casos de Uso Específicos
 
 
 5. Métricas y Dashboard
-Las métricas clave que se incluirán en el dashboard son:
+Las métricas clave que se pueden incluir en un futurio dashboard son:
 * Tasa de Solicitudes: Número de peticiones por minuto/hora, para medir la carga en la API.
 * Tiempos de Respuesta: Tiempo promedio y percentiles (p95, p99) de respuesta para cada endpoint.
 * Errores HTTP: Conteo y tipos de errores (4xx y 5xx) para detectar problemas de funcionamiento.
