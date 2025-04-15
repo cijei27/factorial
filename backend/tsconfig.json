@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*",
+    "src/handler.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

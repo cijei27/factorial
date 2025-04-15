@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipografía limpia */
+  overflow-x: hidden; /* Evitar scroll horizontal */
+}
+.parallax-section {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed; /* Parallax */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-image: url("../public/fondo-customer.webp");
+  backdrop-filter: blur(5px);  /* Aplica el desenfoque */
+  background-color: rgba(248, 0, 0, 0.1); /* Sutil overlay para oscurecer un poco */
+
+}
+
+.foundation-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 999;
+  /* Sin background, para que el color azul de abajo se vea */
+  background: transparent;
+}
+
+/* Sección de logo y marca */
+.foundation-brand {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Empuja el menú hacia la derecha */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-img {
+  height: 45px;
+  margin-right: 8px;
+}
+
+.brand-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Contenedor del menú (el recuadro) */
+.foundation-menu-container {
+  background: #ff345e78; /* Semitransparente */
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 0.5rem 1rem; /* Espacio interno */
+}
+
+/* Lista de enlaces */
+.foundation-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cada link */
+.menu-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #ddd;
+}
+
+/* =================== */
+/* Sección de contenido (para rutas) */
+.content-section {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size:cover;
+}
+
+/* Título y subtítulo de la sección de contenido */
+.content-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.content-subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+/* Recuadro (box) para contenidos, como la tabla en CustomerSearch */
+.result-box,
+.content-box {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+/* Estilos para la tabla de resultados */
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  color:#fff;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.75rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.detail-button {
+  margin-top: 10px;
+  background: #ff345e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.detail-button:hover {
+  background: #333;
+}
+
+/* Estilos para el input y botón de búsqueda en CustomerSearch */
+.search-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.seach-label {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-right: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 1rem;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #ff345e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top:10px;
+}
+
+.search-button:hover {
+  background: #333;
+}
+
+.error-text {
+  color: red;
+  margin-top: 1rem;
+}
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 9rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #ff345e;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color:#000;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-image img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+/* Contenedor principal de la sección */
+.time-management {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9; /* Ajusta el color de fondo */
+  max-width: 1200px;        /* Para centrar el contenido */
+  margin: 0 auto;           /* Centrar horizontalmente */
+}
+
+/* Intro (Título y texto superior) */
+.time-management__intro {
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.time-management__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333; 
+}
+
+.time-management__text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.time-management__links {
+  margin-top: 1rem;
+}
+
+.time-management__main-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+.time-management__main-link:hover {
+  color: #0056b3;
+}
+
+/* Contenedor de tarjetas */
+.time-management__cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+}
+
+/* Cada tarjeta */
+.time-management__card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 30%; /* Aproximadamente 3 tarjetas por fila */
+  min-width: 250px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Título de la tarjeta */
+.time-management__card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Texto descriptivo de la tarjeta */
+.time-management__card p {
+  flex: 1;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+/* Enlace al final de la tarjeta */
+.time-management__card-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+.time-management__card-link:hover {
+  color: #0056b3;
+}
+
+
+.footer {
+  background-color: #ff345e;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ddd;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.clientes-text {
+  padding: 2rem 1rem;
+  background-color: #ff345e;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  text-align: center
+}
+
+
+/* ===================================================================== */
+/* PUNTO DE QUIEBRE PARA PANTALLAS INTERMEDIAS (ej. max-width: 1200px) */
+/* Aquí reducimos un poco el h1 y hacemos el iPhone un poco más grande. */
+@media (max-width: 1200px) {
+  .hero-text h1 {
+    font-size: 5rem; /* Texto más pequeño que 7rem */
+  }
+
+  .hero-image img {
+    max-width: 90%; /* iPhone un poco más grande */
+    max-height: 90%;
+  }
+}
+
+/* ===================================================================== */
+/* PANTALLAS PEQUEÑAS (max-width: 768px) */
+/* Se colapsa el layout a una columna y reducimos aún más el texto. */
+@media (max-width: 768px) {
+  .parallax-section {
+    flex-direction: column; /* Una sola columna */
+    height: auto; /* Ajusta la altura según contenido */
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem; /* Mucho más pequeño en móviles */
+  }
+
+  .hero-image {
+    margin-top: 2rem; /* Espacio para separar de la columna de texto */
+  }
+
+  .content-title {
+    font-size: 2.5rem;
+  }
+  .content-box {
+    width: 90%;  /* Ajusta para móviles */
+  }
+
+  .time-management {
+    padding: 2rem 1rem;
+  }
+  .time-management__title {
+    font-size: 1.8rem;
+  }
+  .time-management__text {
+    font-size: 1.1rem;
+  }
+  .time-management__cards {
+    flex-direction: column;
+  }
+  .time-management__card {
+    min-width: auto;
+    margin-bottom: 1rem;
+  }
+}

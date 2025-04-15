@@ -1,0 +1,16 @@
+service: motorbike-api
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: us-east-1
+  profile: default
+  environment:
+    MONGO_URI: "mongodb+srv://djdavid640:DEArepoQpRHn9dev@cluster0.0iydd.mongodb.net/motorbike-shop?retryWrites=true&w=majority&appName=Cluster0"
+
+functions:
+  app:
+    handler: handler.handler
+    events:
+      - httpApi: "*"  
