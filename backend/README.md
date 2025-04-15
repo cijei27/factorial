@@ -21,11 +21,24 @@
   
 ### Capturas de pantalla de la API
 
-![Captura de pantalla de la API en local con base de datos en local de MongoDB]
+![<img width="939" alt="Captura de pantalla 15 04 2025 a 17 01 16 p  m" src="https://github.com/user-attachments/assets/53b7c6db-057e-4f71-b157-65d54cc21715" />
+Captura de pantalla de la API en local con base de datos en local de MongoDB]
+<img width="865" alt="Captura de pantalla 15 04 2025 a 17 03 38 p  m" src="https://github.com/user-attachments/assets/de823ad9-33f6-4488-81f8-d1222e385762" />
+<img width="868" alt="Captura de pantalla 15 04 2025 a 17 03 48 p  m" src="https://github.com/user-attachments/assets/610e1d90-d9ca-44d7-addf-a3cf62355aa6" />
+<img width="925" alt="Captura de pantalla 15 04 2025 a 17 04 09 p  m" src="https://github.com/user-attachments/assets/9b6a74ec-6fbc-4789-a7d7-aed3d76a5193" />
+<img width="908" alt="Captura de pantalla 15 04 2025 a 17 04 39 p  m" src="https://github.com/user-attachments/assets/de42f22c-501e-4027-abb2-8440b05f9cb7" />
+<img width="902" alt="Captura de pantalla 15 04 2025 a 17 04 57 p  m" src="https://github.com/user-attachments/assets/ce1b1f51-544c-4ae5-8107-ca7cc3bbb987" />
+<img width="911" alt="Captura de pantalla 15 04 2025 a 17 05 16 p  m" src="https://github.com/user-attachments/assets/a1c21d3b-a98b-4fca-bd7e-079901d0c63b" />
 
 ![En MongoDB, ejecutando consulta directamente desde la terminal de mongo] 
+<img width="707" alt="Captura de pantalla 15 04 2025 a 17 05 43 p  m" src="https://github.com/user-attachments/assets/075dbba4-0b29-4686-8c28-926eb1c6181b" />
 
 ![TEST pasados] 
+<img width="785" alt="run test" src="https://github.com/user-attachments/assets/a5e58438-e1bd-46cf-b9e0-81ce803167f4" />
+
+![Deploy] 
+<img width="696" alt="deploy" src="https://github.com/user-attachments/assets/fe2c18be-d9f2-4125-b8c8-6b85dbc80fe5" />
+
 
 ## Para empezar
 
