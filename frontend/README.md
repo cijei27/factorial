@@ -40,10 +40,9 @@ Web Vitals: Biblioteca para medir y monitorear los indicadores de rendimiento we
 
 ### Prerequisitos
 
-- NPM
 
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
 
