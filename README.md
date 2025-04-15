@@ -231,3 +231,30 @@ A continuación, se describen de forma resumida los wireframes para cada caso de
     * Incluye botones para "Editar", "Eliminar" y "Añadir Crédito".
  
 ## ¿Qué puedo aportar a Factorial?
+
+Para mí el camino hacia el To-be comienza en la arquitectura y termina en el SDLC. Una buena base de arquitectura hace que los sistemas sean mucho más escalables y sobre todo que haya crecimiento tanto de la empresa, como del trabajador. En mi tiempo como arquitecto, he trabajado en definir estándares y directrices de Arquitectura que han sido el motor del nuevo del SDLC. Aquí os los detallo y puedo potenciar vuestros proyectos dando mi visión en todos estos artefactos que, para mi, forman una buena arquitectura. De hecho me he basado en el artefacto de blueprint y principios de arquitectura para pensar y estructurar el challenge. Aquí os dejo todos los artefactos que puedo aportar a Factorial:
+
+Estrategia de TI
+Principios de Arquitectura
+Blueprints de Arquitectura
+Patrones de Arquitectura
+Procedimientos y guías para desarrollar
+Implementación de la arquitectura y roadmap de Arquitectura
+Para esta práctica he trabajado en primer lugar, en los principios de arquitectura que será la base de la arquitectura de la práctica.
+
+Si entro en Factorial, una de las muchas cosas que puedo aportar, es ayudar a renovar/crear los principios de Arquitectura, que como todos sabemos son la base de la arquitectura, sin ellos, la alineación estratégica y el desarrollado se hace más complicado.
+
+Me he tomado la libertad de crear otro principio para vosotros, que puede ser el motor de Factorial 2.0.(Para este principio he seguido el framework de TOGAF para su redacción):
+
+Principio 1 - Arquitectura Basada en Servicios APIficados y Desacoplada
+
+Declaración: las aplicaciones de Factorial deben ser diseñadas como servicios desacoplados, con interfaces bien definidas mediante APIs, para asegurar una integración flexible y escalable que minimice dependencias directas entre los sistemas.
+Racional: Una arquitectura desacoplada basada en servicios y en un futuro orientada a eventos permite una mejor gestión de la complejidad y facilita la integración de nuevas funcionalidades sin afectar la estabilidad de los sistemas existentes. Este enfoque también proporciona la agilidad necesaria para implementar cambios regulatorios o nuevas demandas del mercado con mayor rapidez y eficiencia para Factorial.
+Implicaciones:
+Los servicios deben ser desarrollados como componentes independientes y reutilizables, que puedan ser fácilmente actualizados sin impacto en el sistema completo.
+La integración debe apoyarse en APIs estandarizadas y mecanismos de publicación/suscripción de eventos(en un futuro) que permitan una conectividad fluida y adaptable entre sistemas internos y externos.
+Se deben implementar soluciones que favorezcan el procesamiento asíncrono y la gestión de eventos(en un futuro) para optimizar el flujo de datos y la interacción entre sistemas.
+
+
+
+### GRACIAS POR VUESTRA LECTURA
