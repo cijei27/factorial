@@ -170,37 +170,43 @@ Primero defino los casos de uso y los wireframes que se van a estructurar en la 
 
 1. Casos de Uso Principales (Use Cases) que he pensado en general
 Basado en la funcionalidad expuesta por mi API, estos son los casos de uso que debe cubrir el futuro frontend:
-* UC1: Listar Clientes Descripción: El usuario (administrador o empleado) puede ver una lista de clientes registrados. Flujo Principal:
+* UC1: Listar Clientes
+* Descripción: El usuario (administrador o empleado) puede ver una lista de clientes registrados. Flujo Principal:
     1. El usuario accede a la página "Clientes".
     2. La aplicación realiza un GET a /customers.
     3. Se muestra una tabla/lista con la información de cada cliente (nombre, email, crédito, dirección). Casos Alternativos:
     * Si no hay clientes, se muestra un mensaje "No se encontraron clientes".
-* UC2: Crear Cliente Descripción: Permite crear un nuevo cliente con datos básicos y dirección. Flujo Principal:
+* UC2: Crear Cliente
+*  Descripción: Permite crear un nuevo cliente con datos básicos y dirección. Flujo Principal:
     1. El usuario hace clic en el botón "Nuevo Cliente".
     2. Se abre un formulario con campos: Nombre, Email, Crédito inicial, Dirección (Calle, Ciudad, Código Postal).
     3. El usuario ingresa la información y envía el formulario.
     4. La aplicación realiza un POST a /customers con los datos.
     5. Se muestra una notificación de éxito y el cliente se agrega a la lista. Validaciones:
     * Los campos deben ser obligatorios y tener validaciones (por ejemplo, formato de email).
-* UC3: Actualizar Cliente Descripción: Permite editar la información de un cliente existente. Flujo Principal:
+* UC3: Actualizar Cliente
+* Descripción: Permite editar la información de un cliente existente. Flujo Principal:
     1. En la lista de clientes, el usuario selecciona "Editar" para un cliente específico.
     2. Se abre un formulario prellenado con la información actual del cliente.
     3. El usuario modifica los campos necesarios y guarda los cambios.
     4. Se realiza un PUT a /customers/{id} con los datos actualizados.
     5. Se notifica el éxito o se muestra un error. Validaciones:
     * Validar que el email y dirección tengan un formato correcto.
-* UC4: Eliminar Cliente Descripción: Permite eliminar un cliente. Flujo Principal:
+* UC4: Eliminar Cliente
+*  Descripción: Permite eliminar un cliente. Flujo Principal:
     1. En la lista de clientes, el usuario hace clic en "Eliminar".
     2. Se muestra una confirmación.
     3. Al confirmar, se realiza un DELETE a /customers/{id}.
     4. Se actualiza la lista eliminando el cliente y se muestra un mensaje de confirmación.
-* UC5: Incrementar Crédito del Cliente Descripción: Permite añadir crédito a un cliente. Flujo Principal:
+* UC5: Incrementar Crédito del Cliente
+* Descripción: Permite añadir crédito a un cliente. Flujo Principal:
     1. En la vista de detalles o en la lista de clientes, el usuario selecciona "Añadir Crédito".
     2. Se abre un modal o formulario donde se ingresa la cantidad a añadir.
     3. Al enviar, se realiza un PATCH a /customers/{id}/add-credit con la cantidad.
     4. Se actualiza la información del cliente en la lista y se muestra un mensaje de éxito.
-* UC6: Consultar Detalle de un Cliente Descripción: El usuario puede ver la información completa de un cliente (incluyendo dirección y crédito). Flujo Principal:
-    1. El usuario hace clic en un cliente de la lista.
+* UC6: Consultar Detalle de un Cliente
+*  Descripción: El usuario puede ver la información completa de un cliente (incluyendo dirección y crédito). Flujo Principal:
+    1. El usuario hace click en un cliente de la lista.
     2. Se muestra una vista detallada con toda la información del cliente.
 
 2. Wireframes Propuestos
@@ -214,10 +220,6 @@ A continuación, se describen de forma resumida los wireframes para cada caso de
         * Nombre (Input de texto)
         * Email (Input de texto)
         * Crédito Inicial (Input numérico)
-        * Dirección:
-            * Calle
-            * Ciudad
-            * Código Postal
     * Botones: "Crear Cliente" y "Cancelar".
 * Formulario de Actualización de Cliente (UC3):
     * Similar al formulario de creación, pero prellenado con la información actual.
@@ -229,6 +231,9 @@ A continuación, se describen de forma resumida los wireframes para cada caso de
 * Vista Detallada de Cliente (UC6):
     * Muestra toda la información del cliente en un formato de tarjeta o panel.
     * Incluye botones para "Editar", "Eliminar" y "Añadir Crédito".
+
+
+NOTA: Todo esto ha servido de base para luego el resultado final
  
 ## ¿Qué puedo aportar a Factorial?
 
