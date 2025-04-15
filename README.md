@@ -115,21 +115,21 @@ Casos de Uso Específicos
 * Listar Clientes por Crédito: Se consulta y ordena la lista de clientes según su crédito disponible para identificar a los clientes de mayor valor.
 
 4. Roadmap de Producto
-** Fase 1: Desarrollo del Backend
+* Fase 1: Desarrollo del Backend
    * Implementar la API REST siguiendo DDD, separando los contextos (Customer Management y Credit Management).
    * Realizar pruebas unitarias que cubran todos los casos de uso, smoke.
-** Fase 2: Desarrollo del Frontend y Consumo de la API
+* Fase 2: Desarrollo del Frontend y Consumo de la API
    * Diseño y prototipado de la interfaz de usuario (UI) para la gestión de clientes y crédito.
    * Implementación del frontend utilizando un framework moderno (React).
    * Creación de una capa de servicios para consumir la API REST.
-** Fase 3: Despliegue del backend
+* Fase 3: Despliegue del backend
    * Desplegar la API en AWS utilizando Serverless Framework.
 * Fase 4: Monitorización y Escalabilidad
    * Integrar AWS CloudWatch para recoger métricas (tiempos de respuesta, tasas de error, uso de recursos).
    * Configurar un dashboard para visualizar las métricas clave en tiempo real.
    * Realizar pruebas de stress y optimizar la API según sea necesario.
    * Integración y pruebas end-to-end para garantizar la correcta comunicación entre frontend y backend.
-** Fase 5: Iteración y Mejora Continua
+* Fase 5: Iteración y Mejora Continua
    * Recoger feedback de usuarios y administradores.
    * Iterar sobre la UI/UX y añadir nuevas funcionalidades basadas en necesidades reales.
    * Refinar la arquitectura y los casos de uso conforme evoluciona el producto.
