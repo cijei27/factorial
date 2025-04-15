@@ -21,11 +21,11 @@ export class UpdateCustomerUseCase
       throw new Error("Customer not found");
     }
 
-    // 2. Actualizar el crédito en la entidad (el método addCredit usa el VO Credit).
+    // 2. Actualizar los campos necesarios
     customer.updateName(input.name);
     customer.updateEmail(input.email);
     customer.updateCredit(input.credit);
-    // 3. Persiste sólo el campo 'credit' actualizado.
+    // 3. Persiste customer
     const updatedCustomer = await this.customerRepository.update(
       input.id,
       customer
