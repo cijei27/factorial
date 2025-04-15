@@ -2,7 +2,7 @@
 
 <div align="center">
 <img width="300px" src="https://www.rrhhdigital.com/wp-content/uploads/img_directorio/LBQY_factorial_logo_color.png" alt="Logo" width="800"> 
-
+</div>
 
 ## David Ramón Chica - Factorial Senior Software Engineer
 
@@ -29,7 +29,7 @@ We use the serverless framework https://serverless.com/. If you are comfortable 
 
 He adaptado la temática del challenge, de una tienda de motos a un software de gestión de clientes y créditos, para adaptar mejor al scope de Factorial
 
-</div>
+
 
 ## El camino previo antes del desarrollo. El ciclo de vida del desarrollo del software.
 
@@ -42,18 +42,17 @@ Por lo que es importante aclarar el alcance, no todo el blueprint se ha cubierto
 
 Antes de entrar en detalle al plan de arquitectura y como he pensado todo antes de desarrollar, comentar que estos puntos se van a tratar en los readme de la carpeta de backend y la carpeta de frontend. Recomiendo encarecidamente que se sigan para poner el marcha los proyecto y hacer las pruebas end to end:
 
-## Características principales
-## Tecnologias y dependencias
-### Capturas de pantalla de la API
-## Para empezar en el backend/frontend
-### Prerequisitos
-### Instalación
-### Para desarrollo local
-### Para producción
-### Ejecutar la API en Local
-### Ejecutar Tests
-### Compilar el proyecto
-## ¿Qué puedo aportar a Factorial?
+*Características principales
+*Tecnologias y dependencias
+*Capturas de pantalla de la API
+*Para empezar en el backend/frontend
+*Prerequisitos
+*Instalación
+*Para desarrollo local
+*Para producción
+*Ejecutar la API en Local
+*Ejecutar Tests
+*Compilar el proyecto
 
 
 ## Plan de Arquitectura para Customer API - Blueprint To-Be
@@ -230,3 +229,5 @@ A continuación, se describen de forma resumida los wireframes para cada caso de
 * Vista Detallada de Cliente (UC6):
     * Muestra toda la información del cliente en un formato de tarjeta o panel.
     * Incluye botones para "Editar", "Eliminar" y "Añadir Crédito".
+ 
+## ¿Qué puedo aportar a Factorial?
