@@ -103,7 +103,11 @@ node dist/MotorbikesStore.Microservice.Api/server.js --> ejecutar nuestro api en
 <img width="777" alt="Captura de pantalla 15 04 2025 a 17 03 11 p  m" src="https://github.com/user-attachments/assets/87a5b5ce-fe02-4883-be00-a3ec91840890" />
 
 
-¡Importante! Asegúrate de tener MongoDB corriendo localmente 
+¡Importante! Asegúrate de tener MongoDB corriendo localmente. Yo me he creado con docker una imagen de MONGO_DB. 
+¡Importante! ES NECESARIO TENER UNA IMAGEN DE MONGO_DB corriendo para ejecutar y probar este proyecto
+
+<img width="1263" alt="Captura de pantalla 15 04 2025 a 17 07 59 p  m" src="https://github.com/user-attachments/assets/40fbf923-e405-4451-b6a9-d2fae5ca81cc" />
+
 
 Ejecuta:
 
