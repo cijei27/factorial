@@ -232,14 +232,14 @@ A continuación, se describen de forma resumida los wireframes para cada caso de
  
 ## ¿Qué puedo aportar a Factorial?
 
-Para mí el camino hacia el To-be comienza en la arquitectura y termina en el SDLC. Una buena base de arquitectura hace que los sistemas sean mucho más escalables y sobre todo que haya crecimiento tanto de la empresa, como del trabajador. En mi tiempo como arquitecto, he trabajado en definir estándares y directrices de Arquitectura que han sido el motor del nuevo del SDLC. Aquí os los detallo y puedo potenciar vuestros proyectos dando mi visión en todos estos artefactos que, para mi, forman una buena arquitectura. De hecho me he basado en el artefacto de blueprint y principios de arquitectura para pensar y estructurar el challenge. Aquí os dejo todos los artefactos que puedo aportar a Factorial:
+Para mí el camino hacia el To-be comienza en la arquitectura y termina en el SDLC. Una buena base de arquitectura hace que los sistemas sean mucho más escalables y sobre todo que haya crecimiento tanto de la empresa, como del trabajador. En mi tiempo como arquitecto, he trabajado en definir estándares y directrices de Arquitectura que han sido el motor del nuevo del SDLC. Aquí os los detallo y puedo potenciar vuestros proyectos dando mi visión en todos estos artefactos que, para mi, forman una buena arquitectura. De hecho he utilizadoo  el artefacto de blueprint y principios de arquitectura para pensar y estructurar el challenge y luego por supuesto la implementación. Aquí os dejo todos los artefactos que puedo aportar a Factorial:
 
-Estrategia de TI
-Principios de Arquitectura
-Blueprints de Arquitectura
-Patrones de Arquitectura
-Procedimientos y guías para desarrollar
-Implementación de la arquitectura y roadmap de Arquitectura
+* Estrategia de TI
+* Principios de Arquitectura
+* Blueprints de Arquitectura
+* Patrones de Arquitectura
+* Procedimientos y guías para desarrollar
+* Implementación de la arquitectura y roadmap de Arquitectura
 Para esta práctica he trabajado en primer lugar, en los principios de arquitectura que será la base de la arquitectura de la práctica.
 
 Si entro en Factorial, una de las muchas cosas que puedo aportar, es ayudar a renovar/crear los principios de Arquitectura, que como todos sabemos son la base de la arquitectura, sin ellos, la alineación estratégica y el desarrollado se hace más complicado.
