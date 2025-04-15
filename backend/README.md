@@ -34,9 +34,11 @@ Captura de pantalla de la API en local con base de datos en local de MongoDB]
 <img width="707" alt="Captura de pantalla 15 04 2025 a 17 05 43 p  m" src="https://github.com/user-attachments/assets/075dbba4-0b29-4686-8c28-926eb1c6181b" />
 
 ![TEST pasados] 
+
 <img width="785" alt="run test" src="https://github.com/user-attachments/assets/a5e58438-e1bd-46cf-b9e0-81ce803167f4" />
 
 ![Deploy] 
+
 <img width="696" alt="deploy" src="https://github.com/user-attachments/assets/fe2c18be-d9f2-4125-b8c8-6b85dbc80fe5" />
 
 
@@ -95,7 +97,11 @@ Crear un archivo .env a la misma altura del package.json. Configurar en el archi
 
 rm -rf dist --> Limpiar la caché
 Npx tsc -> compilar
+<img width="556" alt="Captura de pantalla 15 04 2025 a 17 03 01 p  m" src="https://github.com/user-attachments/assets/66014027-23a1-45d1-a44a-cede680b934c" />
+
 node dist/MotorbikesStore.Microservice.Api/server.js --> ejecutar nuestro api en local
+<img width="777" alt="Captura de pantalla 15 04 2025 a 17 03 11 p  m" src="https://github.com/user-attachments/assets/87a5b5ce-fe02-4883-be00-a3ec91840890" />
+
 
 ¡Importante! Asegúrate de tener MongoDB corriendo localmente 
 
