@@ -251,7 +251,7 @@ html, body {
 /* Contenedor principal de la sección */
 .time-management {
   padding: 4rem 2rem;
-  background-color: #f9f9f9; /* Ajusta el color de fondo */
+  background-color: #f9f9f9;
   max-width: 1200px;        /* Para centrar el contenido */
   margin: 0 auto;           /* Centrar horizontalmente */
 }
@@ -379,8 +379,7 @@ html, body {
 
 
 /* ===================================================================== */
-/* PUNTO DE QUIEBRE PARA PANTALLAS INTERMEDIAS (ej. max-width: 1200px) */
-/* Aquí reducimos un poco el h1 y hacemos el iPhone un poco más grande. */
+/* PUNTO PARA PANTALLAS INTERMEDIAS (ej. max-width: 1200px) */
 @media (max-width: 1200px) {
   .hero-text h1 {
     font-size: 5rem; /* Texto más pequeño que 7rem */
