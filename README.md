@@ -42,17 +42,17 @@ Por lo que es importante aclarar el alcance, no todo el blueprint se ha cubierto
 
 Antes de entrar en detalle al plan de arquitectura y como he pensado todo antes de desarrollar, comentar que estos puntos se van a tratar en los readme de la carpeta de backend y la carpeta de frontend. Recomiendo encarecidamente que se sigan para poner el marcha los proyecto y hacer las pruebas end to end:
 
-*Características principales
-*Tecnologias y dependencias
-*Capturas de pantalla de la API
-*Para empezar en el backend/frontend
-*Prerequisitos
-*Instalación
-*Para desarrollo local
-*Para producción
-*Ejecutar la API en Local
-*Ejecutar Tests
-*Compilar el proyecto
+* Características principales
+* Tecnologias y dependencias
+* Capturas de pantalla de la API
+* Para empezar en el backend/frontend
+* Prerequisitos
+* Instalación
+* Para desarrollo local
+* Para producción
+* Ejecutar la API en Local
+* Ejecutar Tests
+* Compilar el proyecto
 
 
 ## Plan de Arquitectura para Customer API - Blueprint To-Be
